@@ -15,6 +15,10 @@ public class main {
         String sinopse;
         sinopse = "Filme de aventura com personagem dos anos 80.";
         System.out.println(sinopse);
+
+        int classificação;
+        classificação = (int) (media / 2);
+        System.out.println(classificação);
     }
 
 }

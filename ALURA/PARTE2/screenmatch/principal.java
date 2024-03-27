@@ -1,20 +1,21 @@
-package ALURA.PARTE2.screenmatch;
-
+import ALURA.PARTE2.screenmatch.modelos.filme;
 public class principal {
     public static void main(String[] args) {
         filme meuFilme = new filme();
-        meuFilme.nome = "Blade";
-        meuFilme.anoDeLançamento = 1998;
-        meuFilme.duraçaoFilme = 120;
+        meuFilme.setNome("O poderoso chefão");
+        meuFilme.setAnoDeLancamento(1970);
+        meuFilme.setDuracaoEmMinutos(180);
 
-        System.out.println(meuFilme.nome);
 
-        meuFilme.exibirFichaTecnica();
-        meuFilme.avaliar(8);
-        meuFilme.avaliar(7);
-        meuFilme.avaliar(9);
-        System.out.println(meuFilme.somaDasAvaliaçoes);
-        System.out.println(meuFilme.totalAvaliaçoes);
-        System.out.println(meuFilme.mediaAvaliaçoes());
+        meuFilme.exibeFichaTecnica();
+        meuFilme.avalia(8);
+        meuFilme.avalia(5);
+        meuFilme.avalia(10);
+        System.out.println("Total de avaliações: " + meuFilme.getTotalDeAvaliacoes());
+        System.out.println(meuFilme.pegaMedia());
+        //meuFilme.somaDasAvaliacoes = 10;
+        //meuFilme.totalDeAvaliacoes = 1;
+        //System.out.println(meuFilme.pegaMedia());
+
     }
 }

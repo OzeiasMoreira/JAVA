@@ -1,4 +1,4 @@
-package UENP.LISTA1.EX01;
+package UENP.lampada;
 
 public class lampada {
 

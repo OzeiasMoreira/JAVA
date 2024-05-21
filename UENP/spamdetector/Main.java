@@ -6,7 +6,7 @@ public class Main {
 
         LeitorArquivo leitorArquivo = new LeitorArquivo();
         String mensagem = leitorArquivo.lerArquivo
-        ("C:\\Users\\Ozeias\\Documents\\NetBeansProjects\\Prog_II\\src\\main\\java\\spamdetector\\termos.txt");
+        ("C:\\Users\\Ozeias\\Documents\\PROG2\\JAVA\\UENP\\spamdetector\\texto.txt");
         System.out.println(SpamDetector.calcularScore(mensagem));
 
     }

@@ -1,5 +1,7 @@
-import ALURA.PARTE2.screenmatch.modelos.filme;
-public class principal {
+
+import modelos.filme;
+
+public class principal{
     public static void main(String[] args) {
         filme meuFilme = new filme();
         meuFilme.setNome("O poderoso chefão");

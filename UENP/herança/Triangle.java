@@ -1,4 +1,4 @@
-package UENP.herança;
+package herança;
 
 // Subclasse de TwoDShape para triangulos
 public class Triangle extends TwoDShape{

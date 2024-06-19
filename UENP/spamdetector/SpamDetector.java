@@ -1,4 +1,4 @@
-package UENP.spamdetector;
+package spamdetector;
 
 public class SpamDetector {
 

@@ -4,7 +4,7 @@
 
  */
 
- public class Media{
+ public class Main{
     public static void main(String[] args) {
         double nota1 = 8.9;
         double nota2 = 7.5;

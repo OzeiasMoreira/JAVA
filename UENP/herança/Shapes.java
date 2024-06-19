@@ -1,4 +1,4 @@
-package UENP.herança;
+package herança;
 
 public class Shapes {
     public static void main(String[] args) {

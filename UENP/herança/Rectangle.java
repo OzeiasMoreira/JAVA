@@ -1,4 +1,4 @@
-package UENP.herança;
+package herança;
 
 public class Rectangle extends TwoDShape{
     boolean isSquare(){

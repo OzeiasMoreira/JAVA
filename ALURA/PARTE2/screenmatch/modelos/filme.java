@@ -1,4 +1,4 @@
-package ALURA.PARTE2.screenmatch.modelos;
+package modelos;
 
 public class filme {
     private String nome;

@@ -1,4 +1,4 @@
-package UENP.LISTA1.EX02;
+package caixa;
 
 public class main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package UENP.spamdetector;
+package spamdetector;
 
 import java.io.BufferedReader;
 import java.io.IOException;

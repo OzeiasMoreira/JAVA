@@ -1,4 +1,4 @@
-package UENP.lampada;
+package lampada;
 
 public class main {
     public static void main(String[] args) {
